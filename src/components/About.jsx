@@ -88,6 +88,12 @@ const About = () => {
                                     </span>
                                     <p className="font-light">Tailwindcss</p>
                                 </div>
+                                <div className="flex items-center">
+                                    <span>
+                                        <Icon_Right />
+                                    </span>
+                                    <p className="font-light">Framer-motion</p>
+                                </div>
                             </div>
 
                             <div className="hidden sm:flex items-center gap-5">
@@ -266,7 +272,7 @@ const About = () => {
                                     <span>
                                         <Icon_Right />
                                     </span>
-                                    <p className="font-light">Framer motion</p>
+                                    <p className="font-light">Framer-motion</p>
                                 </div>
                             </div>
 
