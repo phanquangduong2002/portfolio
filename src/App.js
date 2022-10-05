@@ -13,16 +13,9 @@ import {
 } from './components';
 
 function App() {
-    const [clientWidth, setClientWidth] = useState(true);
-    useEffect(() => {
-        if (window.screen.width < 1024) {
-            setClientWidth(false);
-        }
-    }, [clientWidth]);
-
     return (
         <>
-            {clientWidth ? (
+            {window.screen.width > 1024 ? (
                 <div className="w-full h-auto flex flex-col justify-center relative">
                     <CustomCursor />
                     <Header />
