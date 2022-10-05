@@ -68,7 +68,7 @@ const HomeContainer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="mt-5 sm:pt-0 w-full lg:w-[37%] flex items-center justify-center">
+                <div className="mt-10 lg:mt-5 sm:pt-0 w-full lg:w-[37%] flex items-center justify-center">
                     <div className=" h-340 lg:h-370 relative before:absolute before:content before:top-2 before:bottom-2 before:left-2 before:right-2 before:border-[1px] before:border-white before:rounded-sm">
                         <img src={Avatar} alt="" className="h-full object-contain rounded-xl" />
                     </div>
