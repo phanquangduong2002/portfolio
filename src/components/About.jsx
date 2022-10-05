@@ -86,7 +86,7 @@ const About = () => {
                                     <span>
                                         <Icon_Right />
                                     </span>
-                                    <p className="font-light">HTML & CSS</p>
+                                    <p className="font-light">Tailwindcss</p>
                                 </div>
                             </div>
 
