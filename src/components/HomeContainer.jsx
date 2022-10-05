@@ -10,9 +10,9 @@ const HomeContainer = () => {
     return (
         <section
             id="#home"
-            className="w-full h-screen flex justify-center bg-home_bg_image bg-cover bg-center bg-no-repeat relative"
+            className="w-full h-screen lg:max-h-[600px] flex justify-center items-start lg:items-stretch lg:justify-self-stretch bg-home_bg_image bg-cover bg-center bg-no-repeat relative"
         >
-            <div className="w-full px-4 lg:px-[120px] flex flex-col-reverse lg:flex-row items-center justify-center">
+            <div className="w-full mt-[50px] px-4 lg:px-[120px] flex flex-col-reverse lg:flex-row lg:items-center justify-center gap-6">
                 <div className="w-full lg:w-[63%] flex flex-col justify-center">
                     <h3 className="text-red-500 text-2xl lg:text-3xl pt-6 pb-2 flex justify-center lg:justify-start">
                         Hello, I'm
@@ -68,7 +68,7 @@ const HomeContainer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="pt-6 w-full lg:w-[37%] flex items-center justify-center">
+                <div className="mt-5 sm:pt-0 w-full lg:w-[37%] flex items-center justify-center">
                     <div className=" h-340 lg:h-370 relative before:absolute before:content before:top-2 before:bottom-2 before:left-2 before:right-2 before:border-[1px] before:border-white before:rounded-sm">
                         <img src={Avatar} alt="" className="h-full object-contain rounded-xl" />
                     </div>

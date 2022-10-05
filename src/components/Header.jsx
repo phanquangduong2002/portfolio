@@ -74,7 +74,7 @@ const Header = () => {
             </div>
 
             {/* Mobile */}
-            <div className="flex w-full pt-4 pb-2 px-4 fixed top-0 z-50 lg:hidden items-center justify-between bg-white border-b-[1px] border-borderColor">
+            <div className="flex w-full py-2 px-4 fixed top-0 z-50 lg:hidden items-center justify-between bg-white border-b-[1px] border-borderColor">
                 <h1 className="text-2xl md:text-3xl font-semibold relative cursor-pointer">
                     Quang Duong
                 </h1>
