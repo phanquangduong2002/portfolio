@@ -12,7 +12,7 @@ const HomeContainer = () => {
             id="#home"
             className="w-full h-screen lg:max-h-[600px] flex justify-center items-start lg:items-stretch lg:justify-self-stretch bg-home_bg_image bg-cover bg-center bg-no-repeat relative"
         >
-            <div className="w-full mt-[50px] px-4 lg:px-[120px] flex flex-col-reverse lg:flex-row lg:items-center justify-center gap-6">
+            <div className="w-full mt-14 px-4 lg:px-[120px] flex flex-col-reverse lg:flex-row lg:items-center justify-center gap-6">
                 <div className="w-full lg:w-[63%] flex flex-col justify-center">
                     <h3 className="text-red-500 text-2xl lg:text-3xl pt-6 pb-2 flex justify-center lg:justify-start">
                         Hello, I'm
