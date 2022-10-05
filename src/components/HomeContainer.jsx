@@ -10,7 +10,7 @@ const HomeContainer = () => {
     return (
         <section
             id="#home"
-            className="w-full h-auto lg:h-screen lg:max-h-[600px] flex justify-center items-start lg:items-stretch lg:justify-self-stretch bg-home_bg_image bg-cover bg-center bg-no-repeat relative"
+            className="w-full h-auto lg:h-screen lg:max-h-[620px] flex justify-center items-start lg:items-stretch lg:justify-self-stretch bg-home_bg_image bg-cover bg-center bg-no-repeat relative"
         >
             <div className="w-full mt-14 px-4 lg:px-[120px] flex flex-col-reverse lg:flex-row lg:items-center justify-center gap-6">
                 <div className="w-full lg:w-[63%] flex flex-col justify-center">
