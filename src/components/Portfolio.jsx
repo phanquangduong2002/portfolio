@@ -65,8 +65,7 @@ const Portfolio = () => {
                         </div>
                         <div className="w-full lg:w-[60%] flex lg:items-start lg:justify-start flex-col gap-6">
                             <p className="w-full p-7 bg-white shadow-boxShadow rounded-2xl text-headingColor">
-                                Responsive and performant web pages with React, with and SSR for a
-                                better user experience.
+                                Responsive and performant web pages with React.
                             </p>
                             <p className="w-full p-7 bg-white shadow-boxShadow rounded-2xl text-headingColor">
                                 Deployment to platforms such as Vercel, Netlify, and Cloudflare to
