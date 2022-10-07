@@ -58,7 +58,7 @@ const About = () => {
                             </h2>
                             <p className="pb-2 text-base leading-8 font-light">
                                 A demo shopping website with add to cart features and add new
-                                products.
+                                products and sign in with firebase Auth.
                             </p>
                             <p className="pb-2 text-sm text-headingColor font-light">
                                 2022 — web development
