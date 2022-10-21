@@ -1,5 +1,4 @@
 import React from 'react';
-import 'locomotive-scroll/dist/locomotive-scroll.css';
 import {
     ClickToTop,
     Header,
