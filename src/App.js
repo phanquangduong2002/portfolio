@@ -1,5 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
+import React from 'react';
 import 'locomotive-scroll/dist/locomotive-scroll.css';
 import {
     ClickToTop,
