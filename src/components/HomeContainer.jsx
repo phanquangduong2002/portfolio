@@ -4,6 +4,7 @@ import { FaLinkedinIn } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
 import Avatar from '../assets/images/Avatar.jpg';
+import Avt from '../assets/images/avt.jpg';
 import Avatar_2 from '../assets/images/Avatar2.jpg';
 import Image_3 from '../assets/images/3.png';
 
@@ -71,7 +72,7 @@ const HomeContainer = () => {
                 </div>
                 <div className="mt-10 lg:mt-5 sm:pt-0 w-full lg:w-[37%] flex items-center justify-center">
                     <div className=" h-340 lg:h-370 relative before:absolute before:content before:top-2 before:bottom-2 before:left-2 before:right-2 before:border-[1px] before:border-white before:rounded-sm">
-                        <img src={Avatar_2} alt="" className="h-full object-contain rounded-xl" />
+                        <img src={Avt} alt="" className="h-full object-contain rounded-xl" />
                     </div>
                 </div>
             </div>
