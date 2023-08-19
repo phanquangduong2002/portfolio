@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect } from 'react';
 import {
     ClickToTop,
     Header,
@@ -11,6 +12,9 @@ import {
 } from './components';
 
 function App() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <>
             <div className="w-full h-auto flex flex-col justify-center relative">

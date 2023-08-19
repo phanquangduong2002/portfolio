@@ -7,9 +7,12 @@ import {
     FirebaseImage,
     CssImage,
     TailwindCssImage,
+    NodeJsImage,
+    MongodbImage,
 } from '../assets/images';
 
 import Image_7 from '../assets/images/7.png';
+import BootstrapImage from '../assets/images/bootstrap-logo.png';
 
 const Portfolio = () => {
     return (
@@ -25,7 +28,7 @@ const Portfolio = () => {
                         </h3>
                     </div>
                     <div className="py-10 lg:py-20 w-full flex flex-col lg:flex-row justify-center gap-10 lg:gap-4">
-                        <div className="w-full lg:w-[40%] flex items-center justify-center lg:items-start lg:justify-start flex-wrap gap-x-6 gap-y-8">
+                        <div className="w-full lg:w-[50%] flex items-center justify-center lg:items-start lg:justify-start flex-wrap gap-x-6 gap-y-8">
                             <span className="min-w-[120px] sm:min-w-[130px] lg:min-w-[140px] px-2 py-4 lg:p-5 bg-white rounded-xl flex items-center justify-center flex-col shadow-boxShadow">
                                 <span>
                                     <JsImage />
@@ -62,8 +65,30 @@ const Portfolio = () => {
                                 </span>
                                 <span className="pt-3 px-2 text-headingColor">Tailwind</span>
                             </span>
+                            <span className="min-w-[120px] sm:min-w-[130px] lg:min-w-[140px] px-2 py-4 lg:p-5 bg-white rounded-xl flex items-center justify-center flex-col shadow-boxShadow">
+                                <span>
+                                    <NodeJsImage />
+                                </span>
+                                <span className="pt-3 px-2 text-headingColor">NodeJS</span>
+                            </span>
+                            <span className="min-w-[120px] sm:min-w-[130px] lg:min-w-[140px] px-2 py-4 lg:p-5 bg-white rounded-xl flex items-center justify-center flex-col shadow-boxShadow">
+                                <span>
+                                    <MongodbImage />
+                                </span>
+                                <span className="pt-3 px-2 text-headingColor">Mongodb</span>
+                            </span>
+                            <span className="min-w-[120px] sm:min-w-[130px] lg:min-w-[140px] px-2 py-4 lg:p-5 bg-white rounded-xl flex items-center justify-center flex-col shadow-boxShadow">
+                                <span>
+                                    <img
+                                        className="w-[60px] h-[60px] object-contain object-center"
+                                        src={BootstrapImage}
+                                        alt=""
+                                    />
+                                </span>
+                                <span className="pt-3 px-2 text-headingColor">Bootstrap</span>
+                            </span>
                         </div>
-                        <div className="w-full lg:w-[60%] flex lg:items-start lg:justify-start flex-col gap-6">
+                        <div className="w-full lg:w-[50%] flex lg:items-start lg:justify-start flex-col gap-6">
                             <p className="w-full p-7 bg-white shadow-boxShadow rounded-2xl text-headingColor">
                                 Responsive and performant web pages with React.
                             </p>
@@ -72,7 +97,7 @@ const Portfolio = () => {
                                 leverage caching and firewalls at the edge.
                             </p>
                             <p className="w-full p-7 bg-white shadow-boxShadow rounded-2xl text-headingColor">
-                                Data management with Firestore. Use of classic web security
+                                Data management with Firestore, Mongodb. Use of classic web security
                                 principles and user authorization/authentication with Firebase Auth.
                             </p>
                             <p className="w-full p-7 bg-white shadow-boxShadow rounded-2xl text-headingColor">

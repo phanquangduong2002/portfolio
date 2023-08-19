@@ -5,6 +5,8 @@ import Image_6 from '../assets/images/6.png';
 import Image_Project_1 from '../assets/images/Project-1.png';
 import Image_Project_2 from '../assets/images/Project-2.png';
 import Image_Project_4 from '../assets/images/Project-4.png';
+import Image_Project_6 from '../assets/images/Project-6.png';
+import Image_Project_7 from '../assets/images/Project-7.png';
 import Image_8 from '../assets/images/8.png';
 
 import {
@@ -146,6 +148,107 @@ const About = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true, amount: 0.3 }}
                         transition={{ type: 'spring', bounce: 0.4, duration: 1.6 }}
+                        className="w-full my-5 lg:my-10 p-7 lg:p-10 flex flex-col items-center lg:items-stretch lg:justify-start lg:flex-row gap-10 rounded-2xl bg-gradient-to-l from-[#fedfe7] to-[#fbedff]"
+                    >
+                        <div className="w-full sm:min-h-[300px] max-w-[460px] flex items-center justify-center rounded-xl bg-white overflow-hidden">
+                            <img
+                                src={Image_Project_6}
+                                className="w-full object-cover object-center"
+                                alt=""
+                            />
+                        </div>
+                        <div>
+                            <h2 className="text-3xl font-medium tracking-wide pb-5">Instagram</h2>
+                            <p className="pb-2 text-base leading-8 font-light">
+                                A demo shopping website with add to cart features and add new
+                                products and sign in with firebase Auth.
+                            </p>
+                            <p className="pb-2 text-sm text-headingColor font-light">
+                                2022 — web development
+                            </p>
+                            <div className="my-4 sm:my-6 flex flex-col gap-4">
+                                <div className="flex items-center">
+                                    <span>
+                                        <Icon_Right />
+                                    </span>
+                                    <p className="font-light">React.js</p>
+                                </div>
+                                <div className="flex items-center">
+                                    <span>
+                                        <Icon_Right />
+                                    </span>
+                                    <p className="font-light">Javascript</p>
+                                </div>
+                                <div className="flex items-center">
+                                    <span>
+                                        <Icon_Right />
+                                    </span>
+                                    <p className="font-light">Firebase</p>
+                                </div>
+                                <div className="flex items-center">
+                                    <span>
+                                        <Icon_Right />
+                                    </span>
+                                    <p className="font-light">Tailwindcss</p>
+                                </div>
+                                <div className="flex items-center">
+                                    <span>
+                                        <Icon_Right />
+                                    </span>
+                                    <p className="font-light">Framer-motion</p>
+                                </div>
+                            </div>
+
+                            <div className="hidden sm:flex items-center gap-5">
+                                <a
+                                    href="https://github.com/phanquangduong2002/FreciousMarket"
+                                    target="_blank"
+                                    className="group py-2 pl-4 flex items-center rounded-lg border-[0.5px] border-borderBtnColor text-sm font-light relative hover:pl-2 transition-all duration-200 ease-in-out"
+                                >
+                                    <span className="mr-4">View Source</span>
+                                    <div className="w-0 h-5 group-hover:w-4 transition-all duration-200 ease-in-out"></div>
+                                    <div className=" w-5 h-5 absolute top-[50%] opacity-0 -right-2 -translate-y-2/4 group-hover:opacity-[1] group-hover:right-1 transition-all duration-200 ease-in-out">
+                                        <Icon_Right_Btn />
+                                    </div>
+                                </a>
+                                <a
+                                    href="https://frecious-market.vercel.app/"
+                                    target="_blank"
+                                    className="group py-2 pl-4 flex items-center rounded-lg border-[0.5px] border-borderBtnColor text-sm font-light relative hover:pl-2 transition-all duration-200 ease-in-out"
+                                >
+                                    <span className="mr-4">Visit Website</span>
+                                    <div className="w-0 h-5 group-hover:w-4 transition-all duration-200 ease-in-out"></div>
+                                    <div className=" w-5 h-5 absolute top-[50%] opacity-0 -right-2 -translate-y-2/4 group-hover:opacity-[1] group-hover:right-1 transition-all duration-200 ease-in-out">
+                                        <Icon_Right_Btn />
+                                    </div>
+                                </a>
+                            </div>
+                            <div className="flex items-center justify-between sm:hidden">
+                                <a
+                                    href="https://github.com/phanquangduong2002/FreciousMarket"
+                                    target="_blank"
+                                    className="py-2 px-3 text-sm rounded-lg border-[0.5px] border-borderBtnColor"
+                                >
+                                    <Icon_Github />
+                                </a>
+                                <a
+                                    href="https://frecious-market.vercel.app"
+                                    target="_blank"
+                                    className="py-2 px-3 text-sm rounded-lg border-[0.5px] border-borderBtnColor"
+                                >
+                                    <Icon_Visit />
+                                </a>
+                            </div>
+                        </div>
+                    </motion.div>
+
+                    {/* Project */}
+
+                    <motion.div
+                        initial={{ opacity: 0, y: 50 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true, amount: 0.3 }}
+                        transition={{ type: 'spring', bounce: 0.4, duration: 1.6 }}
                         className="w-full my-5 lg:my-10 p-7 lg:p-10 flex flex-col items-center lg:items-stretch lg:justify-start lg:flex-row gap-10 rounded-2xl bg-gradient-to-l from-[#ffeede] to-[#fff9ea]"
                     >
                         <div className="w-full max-w-[460px] sm:min-h-[300px] flex items-center justify-center rounded-xl bg-white overflow-hidden">
@@ -158,6 +261,90 @@ const About = () => {
                         <div>
                             <h2 className="text-3xl font-medium tracking-wide pb-5">
                                 Puppify Shop
+                            </h2>
+                            <p className="pb-2 text-base leading-8 font-light">
+                                A responsive landing page with HTML & CSS and Slick slider.
+                            </p>
+                            <p className="pb-2 text-sm text-headingColor font-light">
+                                2022 — web development
+                            </p>
+                            <div className="my-4 sm:my-6 flex flex-col gap-4">
+                                <div className="flex items-center">
+                                    <span>
+                                        <Icon_Right />
+                                    </span>
+                                    <p className="font-light">Javascript</p>
+                                </div>
+                                <div className="flex items-center">
+                                    <span>
+                                        <Icon_Right />
+                                    </span>
+                                    <p className="font-light">HTML & CSS</p>
+                                </div>
+                            </div>
+
+                            <div className="hidden sm:flex items-center gap-5">
+                                <a
+                                    href="https://github.com/phanquangduong2002/puppify"
+                                    target="_blank"
+                                    className="group py-2 pl-4 flex items-center rounded-lg border-[0.5px] border-borderBtnColor text-sm font-light relative hover:pl-2 transition-all duration-200 ease-in-out"
+                                >
+                                    <span className="mr-4">View Source</span>
+                                    <div className="w-0 h-5 group-hover:w-4 transition-all duration-200 ease-in-out"></div>
+                                    <div className=" w-5 h-5 absolute top-[50%] opacity-0 -right-2 -translate-y-2/4 group-hover:opacity-[1] group-hover:right-1 transition-all duration-200 ease-in-out">
+                                        <Icon_Right_Btn />
+                                    </div>
+                                </a>
+                                <a
+                                    href="https://phanquangduong2002.github.io/puppify/"
+                                    target="_blank"
+                                    className="group py-2 pl-4 flex items-center rounded-lg border-[0.5px] border-borderBtnColor text-sm font-light relative hover:pl-2 transition-all duration-200 ease-in-out"
+                                >
+                                    <span className="mr-4">Visit Website</span>
+                                    <div className="w-0 h-5 group-hover:w-4 transition-all duration-200 ease-in-out"></div>
+                                    <div className=" w-5 h-5 absolute top-[50%] opacity-0 -right-2 -translate-y-2/4 group-hover:opacity-[1] group-hover:right-1 transition-all duration-200 ease-in-out">
+                                        <Icon_Right_Btn />
+                                    </div>
+                                </a>
+                            </div>
+                            <div className="flex items-center justify-between sm:hidden">
+                                <a
+                                    href="https://github.com/phanquangduong2002/puppify"
+                                    target="_blank"
+                                    className="py-2 px-3 text-sm rounded-lg border-[0.5px] border-borderBtnColor"
+                                >
+                                    <Icon_Github />
+                                </a>
+                                <a
+                                    href="https://phanquangduong2002.github.io/puppify/"
+                                    target="_blank"
+                                    className="py-2 px-3 text-sm rounded-lg border-[0.5px] border-borderBtnColor"
+                                >
+                                    <Icon_Visit />
+                                </a>
+                            </div>
+                        </div>
+                    </motion.div>
+
+                    {/* Project */}
+
+                    <motion.div
+                        initial={{ opacity: 0, y: 50 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true, amount: 0.3 }}
+                        transition={{ type: 'spring', bounce: 0.4, duration: 1.6 }}
+                        className="w-full my-5 lg:my-10 p-7 lg:p-10 flex flex-col items-center lg:items-stretch lg:justify-start lg:flex-row gap-10 rounded-2xl bg-gradient-to-l from-[#ffeede] to-[#fff9ea]"
+                    >
+                        <div className="w-full max-w-[460px] sm:min-h-[300px] flex items-center justify-center rounded-xl bg-white overflow-hidden">
+                            <img
+                                src={Image_Project_7}
+                                className="w-full h-full object-cover object-center"
+                                alt=""
+                            />
+                        </div>
+                        <div>
+                            <h2 className="text-3xl font-medium tracking-wide pb-5">
+                                Beauty Store
                             </h2>
                             <p className="pb-2 text-base leading-8 font-light">
                                 A responsive landing page with HTML & CSS and Slick slider.
