@@ -24,11 +24,11 @@ const HomeContainer = () => {
                     </h1>
                     <h3 className="py-3 text-2xl flex justify-center lg:justify-start">
                         <span className="mr-2">A</span>
-                        <span className="text-green-500">Front End Developer</span>
+                        <span className="text-green-500">Web Developer</span>
                     </h3>
                     <h3 className="py-2 text-textColor text-center lg:text-left">
-                        I'm front end developer in Viet Nam, and I'm very passionate and dedicated
-                        to my work.
+                        I'm web developer in Viet Nam, and I'm very passionate and dedicated to my
+                        work.
                     </h3>
                     <div className="py-5 flex items-center justify-center lg:justify-start gap-7 lg:gap-10">
                         <button className="rounded-full border-[2px] border-red-500 bg-red-500 text-white px-4 py-2 cursor-pointer text-lg hover:bg-transparent hover:text-black transition-all duration-[200ms] ease-in-out">
