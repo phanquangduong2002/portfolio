@@ -47,9 +47,7 @@ const Contact = () => {
                                         href="mailto: phanquangduong2002@gmail.com"
                                         className="w-full text-base text-textColor hover:text-orange-600 transition-all duration-150 ease-in-out"
                                     >
-                                        <p className="block truncate">
-                                            phanquangduong2002@gmail.com
-                                        </p>
+                                        <p className="block truncate">quangduongsayhi@gmail.com</p>
                                     </a>
                                 </div>
                             </div>
