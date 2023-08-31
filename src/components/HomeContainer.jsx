@@ -38,7 +38,7 @@ const HomeContainer = () => {
                             <motion.a
                                 whileHover={{ scale: 1.1 }}
                                 whileTap={{ scale: 0.9 }}
-                                href="https://www.facebook.com/phan.q.duong.811"
+                                href="https://www.facebook.com/quangduongsayhi/"
                                 target="_blank"
                             >
                                 <BsFacebook />
